@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Quonference - Secured Web conferencing</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/glowCookies.css" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/glowCookies.js"></script>
+    <script> 
+        $(function () {
+        var includes = $('[data-include]')
+        $.each(includes, function () {
+            var file = 'views/' + $(this).data('include') + '.html'
+            $(this).load(file)
+        })
+        })
+    </script> 
+
+    <!-- Les trois lignes ci‑dessous sont un correctif pour que la sémantique
+         HTML5 fonctionne correctement avec les anciennes versions de
+         Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <div w3-include-html="views/header.html"></div> 
+  <body>
+    <main class="verticalcenter">
+      <!-- image with cta -->
+      <section class="hero">
+        <div class="mobileimg">
+          <img src="/images/heroimg.svg" alt="">
+        </div>
+        <div class="content">
+          <h1>
+            Collaborate, Create <br> and Share
+          </h1>
+          <h2>
+            while we take care of your calls
+          </h2>
+          <p>
+            Discover the video conferencing platform that gives you the freedom to share, collaborate and communicate with your team, securely. With our unique authenticators and powerful access control that goes beyond simple passwords, we keep your room free from uninvited guests.
+          </p>
+        </div>  
+        <div class="heroimg">
+          <img src="/images/heroimg.svg" alt="">
+        </div>
+      </section>
+      <div class="buttonContainer">
+        <a class="blueButton" href="signup.html">Start your free trial!</a>
+      </div>
+      <p class="italic" >30 days free</p>
+      <!-- image with cta end -->
+
+      <!-- features card -->
+      <section class="containermargin">
+        <div class="features1">
+          <h1>Our features</h1>
+          <div class="features2">
+            <div class="cardwidth">
+              <img class="svg" src="/images/camicon.svg" alt="">
+              <h3>
+                Crystal clear video calling            </h3>
+              <p>
+                We use proven technology to make sure your voice is always heard. No more morse code conversations and slideshow video calls              </p>
+            </div>
+            <div class="cardwidth">
+              <img class="svg" src="/images/handicon.svg" alt="">
+              <h3>
+                Seamless collaboration
+              </h3>
+              <p>
+                Polls, screen sharing, breakout rooms, whiteboards, recording and more seamlessly integrated tools are available to boost your teams productivity.
+              </p>
+            </div>
+            <div class="cardwidth">
+              <img class="svg" src="/images/idicon.svg">
+              <h3>
+                Rock solid authentication              </h3>
+              <p>
+                Our secure authenticators, make sure that you choose who's invited to the party. One time codes, biometrics and physical keys are all supported              </p>
+            </div>
+          </div>
+          <div class="buttonContainer">
+            <a class="blueButton" href="signup.html">Start your free trial!</a>
+          </div>
+        </div>
+      </section>
+      <!-- features card end -->
+      
+      <!-- Access from any device -->
+      <section id="access">
+        <div class="mobileimg">
+          <img src="/images/Screenshot 2021-10-15 at 14.57.30.png" alt="">
+        </div>
+        <div class="heroimg">
+          <img src="/images/Screenshot 2021-10-15 at 14.57.30.png" alt="">
+        </div>
+        <div class="content">
+          <h1>
+            Access Quonference
+from any device
+          </h1>
+          <p>
+            Our web based interface allows participants to access meetings on any device that runs a compatible browser. No downloads or updates are necessary, so you can quickly access your calls from anywhere.
+
+
+          </p>
+        </div>  
+      </section>
+      <!-- Access from any device end -->
+
+      <!-- security -->
+      <section>
+        <div class="content">
+          <h1>
+            Protect you and your
+teams data
+          </h1>
+          <p>
+            Quonference o ers a wide variety of authentication methods that can be applied to all participants to guarantee that your calls stay as secure as possible. One time passcodes, onboard biometric readers and our partner Yubico’s wide variety of authentication keys will keep your teams space safe.
+          </p>
+          <img src="" alt="">
+        </div>  
+        <div class="mobileimg">
+          <img src="/images/yubikey.svg" alt="">
+        </div>
+        <div class="heroimg">
+          <img src="/images/yubikey.svg" alt="">
+        </div>
+      </section>
+      <!-- security -->
+
+      <!-- collaboration -->
+      <section>
+        <div class="mobileimg">
+          <img src="/images/collabphoto.svg" alt="">
+        </div>
+        <div class="heroimg">
+          <img src="/images/collabphoto.svg" alt="">
+        </div>
+        <div class="content">
+          <h1>
+            Realize your teams
+potential
+          </h1>
+          <div class="iconcontainer">
+            <div class="leftTools tools">
+              <div class="iconitem">
+                <i class="fas fa-video"></i>
+              <span class="floatr">Video calling</span>
+              </div>
+              <div class="iconitem">
+                <i class="fas fa-phone-alt"></i>
+              <span class="floatr">Local access numbers</span>
+              </div>
+              <div class="iconitem">
+                <i class="fas fa-desktop"></i>
+              <span class="floatr">Screen sharing</span>
+              </div>
+            </div>
+            
+            <div class="rightTools tools">
+              <div class="iconitem"><i class="fas fa-comments"></i>
+                <span>textchat</span></div>
+              <div class="iconitem"><i class="fas fa-chalkboard-teacher"></i>
+                <span>Whiteboard</span></div>
+
+              <div class="iconitem"><i class="fas fa-calendar-alt"></i>
+                <span>Calendar</span></div>
+            </div>
+          </div> 
+          <p>
+            Quonference offers a wide array of collaborative tools seamlessly integrated so you can iterate on your ideas directly in call. From screen sharing to polls, make sure no idea goes unheard.
+          </p>   
+          </div>
+          
+      </section>
+      <!-- collaboration end -->
+      
+      <!-- nos tarifs -->
+      <!-- <div class="hero"> -->
+        <div class="featuresContent">
+          <h1>
+            What’ s in our Plans
+          </h1>
+          <div class="cardContainer">
+            <div class="card">
+            <h3 class="blueTitle">Basic</h3>
+            <div class="price">
+              <div class="currency">€</div>
+              <span class="bigPrice">15</span>
+              <span class="perMonth">/ mo</span>
+            </div>
+            <div class="perHost">
+              per host
+            </div>
+            <div class="features">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  up to 25 participants
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Google integration
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  1 time passwords
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttonContainer">
+            <!-- <button id="signup" class="blueButton">Commencer gratuitement!</button> -->
+            <a class="blueButton" href="signup.html">Start your free trial!</a>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <div class="card">
+            <div class="popular">
+              popular
+            </div>
+            <h3 class="greenTitle">Pro</h3>
+            <div class="price">
+              <div class="currency">€</div>
+              <span class="bigPrice">29</span>
+              <span class="perMonth">/ mo</span>
+            </div>
+            <div class="perHost">
+              per host
+            </div>
+            <div class="features">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  up to 25 participants
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Google integration
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  1 time passwords
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Recording
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Meeting planner
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Polls
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Breakout rooms
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Local access numbers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <div class="card">
+            <h3 class="purpleTitle">Enterprise</h3>
+            <div class="price">
+              <div class="currency">€</div>
+              <span class="bigPrice">50</span>
+              <span class="perMonth">/ mo</span>
+            </div>
+            <div class="perHost">
+              5 Hosts
+            </div>
+            <div class="features">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Up to 25 participants
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Google integration
+
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  1 time passwords
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Recordings
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Meeting planner
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Polls
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Breakout rooms
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Local access numbers
+                </div>
+              </div>
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="featureDescription">
+                  Advanced security options
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <div class="card">
+            <h3 class="blueTitle">Self hosted</h3>
+            <div class="hostedDescription">
+              Hosted on your own servers. No limitation on concurrent users and participants.
+            </div>
+          </div>
+          <div class="buttonContainer">
+            <a id="contact" class="whiteButton">Contactez-nous</a>
+          </div>
+        </div>  
+      </div>  
+      <!-- </div> -->
+      <!-- nos tarifs end-->
+
+
+      <div class="containermargin">
+        <h1 class="bigText">
+          We do custom <br>
+deployments
+           
+        </h1>
+        <h3 class="bigText2">
+          tell us more about<br> your project
+        </h3>
+        <div class="contactInfos">
+          <i class="fas fa-phone-alt"></i> +33 (0)970 449 568
+        </div>
+        <div class="contactInfos">
+          <i class="fas fa-envelope"></i> <a href="mailto:contact@quonference.com">contact@quonference.com</a>
+        </div>
+        <div class="buttonContainer">
+          <a class="blueButton" href="contacts.html">Contactez-nous</a>
+        </div>
+    </div>
+
+   </main> 
+   <div w3-include-html="views/footer.html"></div> 
+  </body>
+  <script src="js/custom.js">
+  </script>
+</html>

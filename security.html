@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Quonference Plans - Secured Web conferencing</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/glowCookies.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/glowCookies.js"></script>
+    
+
+    <!-- Les trois lignes ci‑dessous sont un correctif pour que la sémantique
+         HTML5 fonctionne correctement avec les anciennes versions de
+         Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <div w3-include-html="views/header.html"></div> 
+  <body>
+    <div class="content">
+      <div>
+      <h1>Security Guide</h1>
+      <p>It is possible to secure access to your quonference room by using a room password. Room passwords cans be used as the sole security mechanism or they can be used in addition to the other more secure methods mentioned below.
+      <h2>set up the room password</h2> 
+      <p> A room password can be specified during the room creation or added after the room is created but in both cases the process is the same. If the room is already created edit the room by selecting the room from the rooms menu (home->rooms) and clicking on the edit button, then stay on the first tab (room). If the room is being created stay on or go to the first tab (room).
+      <br><br>
+      On the room tab type the room password in the password field and then save the room or continue on with the creation wizard to the end to create the room. Once you have created or saved the room the password is in effect and anybody connecting to the room via the room URL will be prompted for the room password upon entry (including the host).
+      <br><br>
+      If you want to change the password at any time simply re-edit the room and type a new password and save the changes.
+      <br><br>
+      Please note that just using a room password is weak in terms of security and we advise you to consider one of the more secure methods described below.</p>
+    </div>
+
+    <div>
+      <h2>
+        Securing your room with a one time pincode (invitation mode)
+      </h2>
+          <p>The use of one time pin codes is a great way to protect against unauthorized access to your rooms. When using one time pin codes you define who can access the room and who can’t. The participants who you have given access to will recieve pin codes by email when they connect that must enter into the login  screen.
+            <br><br>
+          You decide who has access to the room by either:
+            <br><br>
+          Adding invitees to the room invitation list
+          Inviting people on the fly from the live meeting</p>
+          <h2>Giving access by defining an invitation list</h2>
+          <img src="/images/security/inviteonly-e.webp" alt="">
+          <p>To enable the use of one time pins  for a room, either create a new room or edit an existing room and click on the Security tab. Once in there select “Invitation Only” from the drop down and then click on the button with the ellipsis that appears next to the drop down.</p>
+        </div>
+        <div>
+          <img src="/images/security/contactlist-e.webp" alt="">
+          <p>This will make your contacts appear. By default the contact list only shows people from your company account, if you want to include your own private contacts that you have previously added be sure to click the “include my contacts” check box.</p>
+        </div>
+        <div>
+          <p>Once you’ve decided who should be allowed in the room by selecting them from the left hand side of the contact list, click the OK button and then the save button. Your room will then be updated in real time.
+            <br><br>
+            Send out your invitations as you normally do and when your guests try to enter the room they will be presented with the following screen:</p>
+            <img src="/images/security/1timecode.webp" alt="">
+        </div>
+        <div>
+          
+          <p>If the email address is on the invitation list the screen will change to the following
+            <br><br>
+            The participant will immediately be sent an invitation email with their one time pin code which they should enter and then they will be given access to the conference</p>
+            <img src="/images/security/success.webp" alt="">
+            <h2>Securing your room with a security key</h2>
+            <p>Protecting your room with a security key such as a Yubikey is a highly secure way of controlling who can access your quonference room. The principle is the following: only users who have a security key that is registered with quonference and that are allowed access to your quonference room can enter your meeting.</p>
+            <h2>Associating a key with a given user account</h2>
+            <p>Any user that you are going to allow to access your room must have associated their security key with their Quonference account. This is done by logging in to the user portal and clicking the security link from the nav bar menu</p>
+            <img src="/images/security/myprofile-e.webp" alt="">
+        </div>
+        <div>
+          <p>Then click on “Biometric and Security Devices”.</p>
+          <img src="/images/security/lock-e.webp" alt="">
+        </div>
+        <div>
+          <p>From here the user must click the “add external device” button:</p>
+          <img src="/images/security/security-e.webp" alt="">
+        </div>
+        <div>
+          <p>They will be prompted to choose a device label / nickname:</p>
+          <img src="/images/security/nickname-e.webp" alt="">
+        </div>
+        <div>
+          <p>Then they will have to click “add device” which will prompt the user to insert their security key:</p>
+          <img src="/images/security/insert-e.webp" alt="">
+        </div>
+        <div>
+          <p>And authenticate with it i.e. enter any associated passcode and then touch the key as they usually do when using their key:
+            <br><br>
+            The key will be then be added to the list of devices and any number of keys can be added however you may not add the same key more than once.</p>
+            <img src="/images/security/inviteonly-e.webp" alt="">
+            <h2>Setting up the room to require access by security key</h2>
+            <p>To set rooms up so that require the use of a security key or other FIDO2 / Webauthn device such as a fingerprint reader is done by setting the access mode on the security tab to “Biometric” as shown below:</p>
+            <img src="/images/security/biometric-e.webp" alt="">
+        </div>
+        <div>
+          <p>By default anyone with a quonference account in the same organisation as you will be able to access the room as long as they use their security key and it has been associated with their Quonference user account.
+            <br><br>
+            However you may further restrict who can access the room by selecting the radio  option “decide who can participate”.</p>
+        </div>
+        <img src="/images/security/contacts-e.webp" alt="">
+        <div>
+          <img src="" alt="">
+          <p>This will show you a popup box that is pre-populated with all of your company’s user accounts enabling you to further restrict access to specific individuals within your company or from your contact list:
+            <br><br>
+            Then click the save button and your room is now protected against unauthorized access by a security key. Anyone trying to enter the room will have authenticate using their key.</p>
+        </div>
+      </div>
+  <div w3-include-html="views/footer.html"></div> 
+  </body>
+  <script src="js/custom.js">
+  </script>
+</html>

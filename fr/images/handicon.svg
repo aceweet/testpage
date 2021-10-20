@@ -1,0 +1,10 @@
+<svg id="handicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.268" height="110.61" viewBox="0 0 135.268 110.61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1573f6"/>
+      <stop offset="1" stop-color="#6301f8"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1010" data-name="Path 1010" d="M91.771,271.812H64.754L29.39,239.345l5.36-5.838,20.238,18.581a13.965,13.965,0,0,0-2.281-16.736L33.283,215.926H0v28.246H10.553l40.493,37.646h54.121A13.994,13.994,0,0,0,91.771,271.812Z" transform="translate(0 -171.208)" fill="url(#linear-gradient)"/>
+  <path id="Path_1011" data-name="Path 1011" d="M166.93,46.666H112.809a13.994,13.994,0,0,0,13.4,10.006h27.017L188.586,89.14l-5.36,5.838L162.988,76.4a13.966,13.966,0,0,0,2.281,16.736l19.425,19.425h33.58V84.312h-10.85Z" transform="translate(-83.006 -46.666)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="camicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.499" height="110.61" viewBox="0 0 135.499 110.61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1573f6"/>
+      <stop offset="1" stop-color="#6301f8"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1012" data-name="Path 1012" d="M0,413.343a10.2,10.2,0,0,0,10.188,10.188H125.311A10.2,10.2,0,0,0,135.5,413.343v-2.591H0Z" transform="translate(0 -312.922)" fill="url(#linear-gradient)"/>
+  <path id="Path_1013" data-name="Path 1013" d="M128.685,162.037h39.6V189.7h-39.6Z" transform="translate(-94.137 -130.979)" fill="url(#linear-gradient)"/>
+  <path id="Path_1014" data-name="Path 1014" d="M306.181,186.14l18.75,6.246V167.843l-18.75,6.246Z" transform="translate(-223.98 -135.227)" fill="url(#linear-gradient)"/>
+  <path id="Path_1015" data-name="Path 1015" d="M150.91,46.353H33.281v89.776H150.91Zm-17.559,68.332-26.8-8.929v7.37H50.84V69.357h55.707v7.37l26.8-8.929v46.887Z" transform="translate(-24.346 -46.353)" fill="url(#linear-gradient)"/>
+</svg>
